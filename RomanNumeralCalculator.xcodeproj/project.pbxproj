@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1264B9301FC8A6DB008EEC7D /* RomanNumeralCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1264B92F1FC8A6DB008EEC7D /* RomanNumeralCalculatorTests.swift */; };
+		1264B93E1FC8A6EF008EEC7D /* RomanNumeralCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1264B93D1FC8A6EF008EEC7D /* RomanNumeralCalculatorUITests.swift */; };
 		835AEC8F1D80DD800046555C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835AEC8E1D80DD800046555C /* AppDelegate.swift */; };
 		835AEC911D80DD800046555C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835AEC901D80DD800046555C /* ViewController.swift */; };
 		835AEC941D80DD800046555C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 835AEC921D80DD800046555C /* Main.storyboard */; };
 		835AEC961D80DD800046555C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 835AEC951D80DD800046555C /* Assets.xcassets */; };
 		835AECBD1D80ED8F0046555C /* RomanNumeral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835AECBC1D80ED8F0046555C /* RomanNumeral.swift */; };
 		A91340121DE008F2005ED9CA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A91340101DE008F2005ED9CA /* LaunchScreen.xib */; };
-		A955D2A21DEDDD3700018872 /* RomanNumeralCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A955D2A11DEDDD3700018872 /* RomanNumeralCalculatorTests.swift */; };
-		A955D2B01DEDDE6100018872 /* RomanNumeralCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A955D2AF1DEDDE6100018872 /* RomanNumeralCalculatorUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A955D2A41DEDDD3700018872 /* PBXContainerItemProxy */ = {
+		1264B9321FC8A6DB008EEC7D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 835AEC831D80DD7F0046555C /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 835AEC8A1D80DD7F0046555C;
 			remoteInfo = RomanNumeralCalculator;
 		};
-		A955D2B21DEDDE6100018872 /* PBXContainerItemProxy */ = {
+		1264B9401FC8A6EF008EEC7D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 835AEC831D80DD7F0046555C /* Project object */;
 			proxyType = 1;
@@ -35,6 +35,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1264B92D1FC8A6DB008EEC7D /* RomanNumeralCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RomanNumeralCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1264B92F1FC8A6DB008EEC7D /* RomanNumeralCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanNumeralCalculatorTests.swift; sourceTree = "<group>"; };
+		1264B9311FC8A6DB008EEC7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1264B93B1FC8A6EF008EEC7D /* RomanNumeralCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RomanNumeralCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1264B93D1FC8A6EF008EEC7D /* RomanNumeralCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanNumeralCalculatorUITests.swift; sourceTree = "<group>"; };
+		1264B93F1FC8A6EF008EEC7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		835AEC8B1D80DD800046555C /* RomanNumeralCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RomanNumeralCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		835AEC8E1D80DD800046555C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		835AEC901D80DD800046555C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,30 +49,24 @@
 		835AEC9A1D80DD800046555C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		835AECBC1D80ED8F0046555C /* RomanNumeral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RomanNumeral.swift; sourceTree = "<group>"; };
 		A91340111DE008F2005ED9CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		A955D29F1DEDDD3700018872 /* RomanNumeralCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RomanNumeralCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A955D2A11DEDDD3700018872 /* RomanNumeralCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanNumeralCalculatorTests.swift; sourceTree = "<group>"; };
-		A955D2A31DEDDD3700018872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A955D2AD1DEDDE6100018872 /* RomanNumeralCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RomanNumeralCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A955D2AF1DEDDE6100018872 /* RomanNumeralCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanNumeralCalculatorUITests.swift; sourceTree = "<group>"; };
-		A955D2B11DEDDE6100018872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1264B92A1FC8A6DB008EEC7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1264B9381FC8A6EF008EEC7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		835AEC881D80DD7F0046555C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A955D29C1DEDDD3700018872 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A955D2AA1DEDDE6100018872 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,12 +76,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1264B92E1FC8A6DB008EEC7D /* RomanNumeralCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				1264B92F1FC8A6DB008EEC7D /* RomanNumeralCalculatorTests.swift */,
+				1264B9311FC8A6DB008EEC7D /* Info.plist */,
+			);
+			path = RomanNumeralCalculatorTests;
+			sourceTree = "<group>";
+		};
+		1264B93C1FC8A6EF008EEC7D /* RomanNumeralCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1264B93D1FC8A6EF008EEC7D /* RomanNumeralCalculatorUITests.swift */,
+				1264B93F1FC8A6EF008EEC7D /* Info.plist */,
+			);
+			path = RomanNumeralCalculatorUITests;
+			sourceTree = "<group>";
+		};
 		835AEC821D80DD7F0046555C = {
 			isa = PBXGroup;
 			children = (
 				835AEC8D1D80DD800046555C /* RomanNumeralCalculator */,
-				A955D2A01DEDDD3700018872 /* RomanNumeralCalculatorTests */,
-				A955D2AE1DEDDE6100018872 /* RomanNumeralCalculatorUITests */,
+				1264B92E1FC8A6DB008EEC7D /* RomanNumeralCalculatorTests */,
+				1264B93C1FC8A6EF008EEC7D /* RomanNumeralCalculatorUITests */,
 				835AEC8C1D80DD800046555C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +108,8 @@
 			isa = PBXGroup;
 			children = (
 				835AEC8B1D80DD800046555C /* RomanNumeralCalculator.app */,
-				A955D29F1DEDDD3700018872 /* RomanNumeralCalculatorTests.xctest */,
-				A955D2AD1DEDDE6100018872 /* RomanNumeralCalculatorUITests.xctest */,
+				1264B92D1FC8A6DB008EEC7D /* RomanNumeralCalculatorTests.xctest */,
+				1264B93B1FC8A6EF008EEC7D /* RomanNumeralCalculatorUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,27 +128,45 @@
 			path = RomanNumeralCalculator;
 			sourceTree = "<group>";
 		};
-		A955D2A01DEDDD3700018872 /* RomanNumeralCalculatorTests */ = {
-			isa = PBXGroup;
-			children = (
-				A955D2A11DEDDD3700018872 /* RomanNumeralCalculatorTests.swift */,
-				A955D2A31DEDDD3700018872 /* Info.plist */,
-			);
-			path = RomanNumeralCalculatorTests;
-			sourceTree = "<group>";
-		};
-		A955D2AE1DEDDE6100018872 /* RomanNumeralCalculatorUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A955D2AF1DEDDE6100018872 /* RomanNumeralCalculatorUITests.swift */,
-				A955D2B11DEDDE6100018872 /* Info.plist */,
-			);
-			path = RomanNumeralCalculatorUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		1264B92C1FC8A6DB008EEC7D /* RomanNumeralCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1264B9341FC8A6DB008EEC7D /* Build configuration list for PBXNativeTarget "RomanNumeralCalculatorTests" */;
+			buildPhases = (
+				1264B9291FC8A6DB008EEC7D /* Sources */,
+				1264B92A1FC8A6DB008EEC7D /* Frameworks */,
+				1264B92B1FC8A6DB008EEC7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1264B9331FC8A6DB008EEC7D /* PBXTargetDependency */,
+			);
+			name = RomanNumeralCalculatorTests;
+			productName = RomanNumeralCalculatorTests;
+			productReference = 1264B92D1FC8A6DB008EEC7D /* RomanNumeralCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1264B93A1FC8A6EF008EEC7D /* RomanNumeralCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1264B9421FC8A6EF008EEC7D /* Build configuration list for PBXNativeTarget "RomanNumeralCalculatorUITests" */;
+			buildPhases = (
+				1264B9371FC8A6EF008EEC7D /* Sources */,
+				1264B9381FC8A6EF008EEC7D /* Frameworks */,
+				1264B9391FC8A6EF008EEC7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1264B9411FC8A6EF008EEC7D /* PBXTargetDependency */,
+			);
+			name = RomanNumeralCalculatorUITests;
+			productName = RomanNumeralCalculatorUITests;
+			productReference = 1264B93B1FC8A6EF008EEC7D /* RomanNumeralCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		835AEC8A1D80DD7F0046555C /* RomanNumeralCalculator */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 835AECB31D80DD800046555C /* Build configuration list for PBXNativeTarget "RomanNumeralCalculator" */;
@@ -148,67 +184,32 @@
 			productReference = 835AEC8B1D80DD800046555C /* RomanNumeralCalculator.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A955D29E1DEDDD3700018872 /* RomanNumeralCalculatorTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A955D2A61DEDDD3700018872 /* Build configuration list for PBXNativeTarget "RomanNumeralCalculatorTests" */;
-			buildPhases = (
-				A955D29B1DEDDD3700018872 /* Sources */,
-				A955D29C1DEDDD3700018872 /* Frameworks */,
-				A955D29D1DEDDD3700018872 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A955D2A51DEDDD3700018872 /* PBXTargetDependency */,
-			);
-			name = RomanNumeralCalculatorTests;
-			productName = RomanNumeralCalculatorTests;
-			productReference = A955D29F1DEDDD3700018872 /* RomanNumeralCalculatorTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		A955D2AC1DEDDE6100018872 /* RomanNumeralCalculatorUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A955D2B41DEDDE6100018872 /* Build configuration list for PBXNativeTarget "RomanNumeralCalculatorUITests" */;
-			buildPhases = (
-				A955D2A91DEDDE6100018872 /* Sources */,
-				A955D2AA1DEDDE6100018872 /* Frameworks */,
-				A955D2AB1DEDDE6100018872 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A955D2B31DEDDE6100018872 /* PBXTargetDependency */,
-			);
-			name = RomanNumeralCalculatorUITests;
-			productName = RomanNumeralCalculatorUITests;
-			productReference = A955D2AD1DEDDE6100018872 /* RomanNumeralCalculatorUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		835AEC831D80DD7F0046555C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0810;
+				LastSwiftUpdateCheck = 0910;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = buddybuild;
 				TargetAttributes = {
+					1264B92C1FC8A6DB008EEC7D = {
+						CreatedOnToolsVersion = 9.1;
+						DevelopmentTeam = L5FNV85WPP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 835AEC8A1D80DD7F0046555C;
+					};
+					1264B93A1FC8A6EF008EEC7D = {
+						CreatedOnToolsVersion = 9.1;
+						DevelopmentTeam = L5FNV85WPP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 835AEC8A1D80DD7F0046555C;
+					};
 					835AEC8A1D80DD7F0046555C = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = L5FNV85WPP;
 						LastSwiftMigration = 0810;
-					};
-					A955D29E1DEDDD3700018872 = {
-						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = AT7S4C746C;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 835AEC8A1D80DD7F0046555C;
-					};
-					A955D2AC1DEDDE6100018872 = {
-						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = AT7S4C746C;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 835AEC8A1D80DD7F0046555C;
 					};
 				};
 			};
@@ -226,13 +227,27 @@
 			projectRoot = "";
 			targets = (
 				835AEC8A1D80DD7F0046555C /* RomanNumeralCalculator */,
-				A955D29E1DEDDD3700018872 /* RomanNumeralCalculatorTests */,
-				A955D2AC1DEDDE6100018872 /* RomanNumeralCalculatorUITests */,
+				1264B92C1FC8A6DB008EEC7D /* RomanNumeralCalculatorTests */,
+				1264B93A1FC8A6EF008EEC7D /* RomanNumeralCalculatorUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1264B92B1FC8A6DB008EEC7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1264B9391FC8A6EF008EEC7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		835AEC891D80DD7F0046555C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -243,23 +258,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A955D29D1DEDDD3700018872 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A955D2AB1DEDDE6100018872 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1264B9291FC8A6DB008EEC7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1264B9301FC8A6DB008EEC7D /* RomanNumeralCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1264B9371FC8A6EF008EEC7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1264B93E1FC8A6EF008EEC7D /* RomanNumeralCalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		835AEC871D80DD7F0046555C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -270,34 +287,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A955D29B1DEDDD3700018872 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A955D2A21DEDDD3700018872 /* RomanNumeralCalculatorTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A955D2A91DEDDE6100018872 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A955D2B01DEDDE6100018872 /* RomanNumeralCalculatorUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A955D2A51DEDDD3700018872 /* PBXTargetDependency */ = {
+		1264B9331FC8A6DB008EEC7D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 835AEC8A1D80DD7F0046555C /* RomanNumeralCalculator */;
-			targetProxy = A955D2A41DEDDD3700018872 /* PBXContainerItemProxy */;
+			targetProxy = 1264B9321FC8A6DB008EEC7D /* PBXContainerItemProxy */;
 		};
-		A955D2B31DEDDE6100018872 /* PBXTargetDependency */ = {
+		1264B9411FC8A6EF008EEC7D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 835AEC8A1D80DD7F0046555C /* RomanNumeralCalculator */;
-			targetProxy = A955D2B21DEDDE6100018872 /* PBXContainerItemProxy */;
+			targetProxy = 1264B9401FC8A6EF008EEC7D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -321,6 +322,122 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		1264B9351FC8A6DB008EEC7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L5FNV85WPP;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = RomanNumeralCalculatorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meb.RomanNumeralCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RomanNumeralCalculator.app/RomanNumeralCalculator";
+			};
+			name = Debug;
+		};
+		1264B9361FC8A6DB008EEC7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L5FNV85WPP;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = RomanNumeralCalculatorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meb.RomanNumeralCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RomanNumeralCalculator.app/RomanNumeralCalculator";
+			};
+			name = Release;
+		};
+		1264B9431FC8A6EF008EEC7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L5FNV85WPP;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = RomanNumeralCalculatorUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meb.RomanNumeralCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RomanNumeralCalculator;
+			};
+			name = Debug;
+		};
+		1264B9441FC8A6EF008EEC7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L5FNV85WPP;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = RomanNumeralCalculatorUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meb.RomanNumeralCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RomanNumeralCalculator;
+			};
+			name = Release;
+		};
 		835AECB11D80DD800046555C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -417,14 +534,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = L5FNV85WPP;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = RomanNumeralCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.udacity.RomanNumeralCalculator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.meb.RomanNumeralCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_INSTALL_OBJC_HEADER = NO;
@@ -438,14 +555,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = L5FNV85WPP;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = RomanNumeralCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.udacity.RomanNumeralCalculator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.meb.RomanNumeralCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_INSTALL_OBJC_HEADER = NO;
@@ -453,77 +570,27 @@
 			};
 			name = Release;
 		};
-		A955D2A71DEDDD3700018872 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				DEVELOPMENT_TEAM = AT7S4C746C;
-				INFOPLIST_FILE = RomanNumeralCalculatorTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Udacity.RomanNumeralCalculatorTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RomanNumeralCalculator.app/RomanNumeralCalculator";
-			};
-			name = Debug;
-		};
-		A955D2A81DEDDD3700018872 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				DEVELOPMENT_TEAM = AT7S4C746C;
-				INFOPLIST_FILE = RomanNumeralCalculatorTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Udacity.RomanNumeralCalculatorTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RomanNumeralCalculator.app/RomanNumeralCalculator";
-			};
-			name = Release;
-		};
-		A955D2B51DEDDE6100018872 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				DEVELOPMENT_TEAM = AT7S4C746C;
-				INFOPLIST_FILE = RomanNumeralCalculatorUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Udacity.RomanNumeralCalculatorUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = RomanNumeralCalculator;
-			};
-			name = Debug;
-		};
-		A955D2B61DEDDE6100018872 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				DEVELOPMENT_TEAM = AT7S4C746C;
-				INFOPLIST_FILE = RomanNumeralCalculatorUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Udacity.RomanNumeralCalculatorUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = RomanNumeralCalculator;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1264B9341FC8A6DB008EEC7D /* Build configuration list for PBXNativeTarget "RomanNumeralCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1264B9351FC8A6DB008EEC7D /* Debug */,
+				1264B9361FC8A6DB008EEC7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1264B9421FC8A6EF008EEC7D /* Build configuration list for PBXNativeTarget "RomanNumeralCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1264B9431FC8A6EF008EEC7D /* Debug */,
+				1264B9441FC8A6EF008EEC7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		835AEC861D80DD7F0046555C /* Build configuration list for PBXProject "RomanNumeralCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -538,24 +605,6 @@
 			buildConfigurations = (
 				835AECB41D80DD800046555C /* Debug */,
 				835AECB51D80DD800046555C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A955D2A61DEDDD3700018872 /* Build configuration list for PBXNativeTarget "RomanNumeralCalculatorTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A955D2A71DEDDD3700018872 /* Debug */,
-				A955D2A81DEDDD3700018872 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A955D2B41DEDDE6100018872 /* Build configuration list for PBXNativeTarget "RomanNumeralCalculatorUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A955D2B51DEDDE6100018872 /* Debug */,
-				A955D2B61DEDDE6100018872 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
